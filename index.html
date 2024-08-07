@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link css  -->
+   <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+   <link rel="shortcut icon" href="img/logo_icon.png" type="image/x-icon">
+  <title>Bootstrap template</title>
+</head>
+<body>
+  <!-- header strat -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-0">
+          <!-- logo strat -->
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" class="img-fluid" alt="logo">
+          </a>
+          <!-- logo end -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- menu strat -->
+          <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link p-0" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0" href="#">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0" href="#">Others</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0" href="#">Blog</a>
+              </li>
+            </ul>
+            <a href="#" class="btn c_btn cs_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</a>
+          </div>
+          <!-- menu end -->
+           <!-- modal strat -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content c_modal">
+              <div class="modal-header">
+                <img src="img/logo.png" alt="modal_logo">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!-- form strat -->
+                <form class="row g-3 needs-validation" novalidate>
+                  <div class="col-md-12">
+                    <label for="validationCustomUsername" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text" id="mc_f">@</span>
+                      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="mc_f" placeholder="Enter your @Username" required>
+                      <div class="invalid-feedback">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <label for="validationCustom03" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="validationCustom03" placeholder="Enter your Password" required>
+                    <div class="invalid-feedback">
+                    </div>
+                  </div>
+                </form>
+                <!-- form end -->
+              </div>
+              <div class="modal-footer">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-6 p-0">
+                        <div class="submit_btn text-strat">
+                          <button type="submit" class="btn btn-primary m_btn">Login</button>
+                        </div>
+                      </div>
+                      <div class="col-6 p-0">
+                        <div class="close text-end">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+           <!-- modal end -->
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- danner strat -->
+   <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 col-lg-6 order-2 order-lg-1">
+          <div class="b_text">
+            <p class="m-0 b_p">Are you ready to Learn?</p>
+            <h2>Learn With fun on <span>any schedule</span></h2>
+            <p class="m-0 b_p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+            <a href="#" class="btn c_btn cs2_btn">Get Started</a>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-xl-6 col-lg-6 order-1 order-lg-2">
+          <div class="b_img">
+            <img src="img/banner.png" class="w-100" alt="banner">
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- danner end -->
+
+   <!-- feature strat -->
+    <section class="feature cm_padding">
+      <div class="container">
+        <div class="row">
+          <!-- sf_strat -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="f_item text-center">
+              <div class="f_img mx-auto">
+                <img src="img/book.png" class="w-100" alt="book">
+              </div>
+              <h2 class="m-0">1500+ Topic</h2>
+              <p class="m-0">Learn Anythings</p>
+            </div>
+          </div>
+          <!-- sf_end -->
+          <!-- sf_strat -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="f_item text-center">
+              <div class="f_img mx-auto">
+                <img src="img/note2.png" class="w-100" alt="book">
+              </div>
+              <h2 class="m-0">1800+ Students</h2>
+              <p class="m-0">Learn Anythings</p>
+            </div>
+          </div>
+          <!-- sf_end -->
+          <!-- sf_strat -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="f_item text-center">
+              <div class="f_img mx-auto">
+                <img src="img/note.png" class="w-100" alt="book">
+              </div>
+              <h2 class="m-0">19K+ Test Token</h2>
+              <p class="m-0">Learn Anythings</p>
+            </div>
+          </div>
+          <!-- sf_end -->
+          <!-- sf_strat -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="f_item text-center">
+              <div class="f_img mx-auto">
+                <img src="img/book2.png" class="w-100" alt="book">
+              </div>
+              <h2 class="m-0">2000+ Student</h2>
+              <p class="m-0">Learn Anythings</p>
+            </div>
+          </div>
+          <!-- sf_end -->
+        </div>
+      </div>
+    </section>
+   <!-- feature end -->
+
+   <!-- cours strat -->
+     <section class="cours cm_padding">
+      <div class="container">
+        <!-- 1st row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <h2 class="h2 c_hp">Online Courses</h2>
+          </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="row">
+          <!-- copy -->
+          <div class="col-lg-4">
+            <!-- cours item strat -->
+            <div class="c_item">
+              <!-- cours img strat -->
+              <div class="c_img">
+                <img src="img/c_1.jpg" class="w-100" alt="c_1">
+              </div>
+              <!-- cours img end -->
+              <!-- cours text strat -->
+                <h2 class="c_h2 mb-0">Modern Psychology</h2>
+                <p class="c_p mb-0">Designation</p>
+                <a class="c_link btn c_btn" href="#">Buy Course</a>
+              <!-- cours text end -->
+               <!-- cours time strat -->
+                <div class="c_left float-start">
+                  <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item c_li"><img src="img/calender (1).png" class="img-fluid" alt="e-school"></li>
+                    <li class="list-inline-item c_li"><span>Start 20  April, 2021</span></li>
+                  </ul>
+                </div>
+                <div class="c_right float-end">
+                  <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item c_li"><img src="img/pip.png" class="img-fluid" alt="e-school"></li>
+                    <li class="list-inline-item c_li"><span>60 seats</span></li>
+                  </ul>
+                </div>
+               <!-- cours time end -->
+            </div>
+            <!-- cours item end -->
+          </div>
+          <!-- copy -->
+          <!-- copy -->
+          <div class="col-lg-4">
+            <!-- cours item strat -->
+            <div class="c_item">
+              <!-- cours img strat -->
+              <div class="c_img">
+                <img src="img/c_2.jpg" class="w-100" alt="c_1">
+              </div>
+              <!-- cours img end -->
+              <!-- cours text strat -->
+                <h2 class="c_h2 mb-0">Modern Psychology</h2>
+                <p class="c_p mb-0">Designation</p>
+                <a class="c_link btn c_btn" href="#">Buy Course</a>
+              <!-- cours text end -->
+               <!-- cours time strat -->
+                <div class="c_left float-start">
+                  <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item c_li"><img src="img/calender (1).png" class="img-fluid" alt="e-school"></li>
+                    <li class="list-inline-item c_li"><span>Start 20  April, 2021</span></li>
+                  </ul>
+                </div>
+                <div class="c_right float-end">
+                  <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item c_li"><img src="img/pip.png" class="img-fluid" alt="e-school"></li>
+                    <li class="list-inline-item c_li"><span>60 seats</span></li>
+                  </ul>
+                </div>
+               <!-- cours time end -->
+            </div>
+            <!-- cours item end -->
+          </div>
+          <!-- copy -->
+          <!-- copy -->
+          <div class="col-lg-4">
+            <!-- cours item strat -->
+            <div class="c_item">
+              <!-- cours img strat -->
+              <div class="c_img">
+                <img src="img/c_3.jpg" class="w-100" alt="c_1">
+              </div>
+              <!-- cours img end -->
+              <!-- cours text strat -->
+                <h2 class="c_h2 mb-0">Modern Psychology</h2>
+                <p class="c_p mb-0">Designation</p>
+                <a class="c_link btn c_btn" href="#">Buy Course</a>
+              <!-- cours text end -->
+               <!-- cours time strat -->
+                <div class="c_left float-start">
+                  <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item c_li"><img src="img/calender (1).png" class="img-fluid" alt="e-school"></li>
+                    <li class="list-inline-item c_li"><span>Start 20  April, 2021</span></li>
+                  </ul>
+                </div>
+                <div class="c_right float-end">
+                  <ul class="list-unstyled list-inline mb-0">
+                    <li class="list-inline-item c_li"><img src="img/pip.png" class="img-fluid" alt="e-school"></li>
+                    <li class="list-inline-item c_li"><span>60 seats</span></li>
+                  </ul>
+                </div>
+               <!-- cours time end -->
+            </div>
+            <!-- cours item end -->
+          </div>
+          <!-- copy -->
+        </div>
+      </div>
+     </section>
+    <!-- cours end -->
+
+    <!-- testimony strat -->
+     <section class="testi cm_padding">
+      <div class="container">
+        <!-- 1st row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <h2 class="h2">Testimonial</h2>
+          </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-11">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <!-- item strat  -->
+                <div class="carousel-item active" data-bs-interval="10000">
+                <div class="t_item">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                      <!-- t_img -->
+                      <div class="t_img">
+                        <img src="img/man.png" class="w-100" alt="man">
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                      <!-- t_text -->
+                      <div class="t_text">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                          majority have suffered alteration in some form, by injected humour, 
+                         or randomised words which don't look even slightly believable.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- item end -->
+                <!-- item strat  -->
+                <div class="carousel-item" data-bs-interval="10000">
+                <div class="t_item">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                      <!-- t_img -->
+                      <div class="t_img">
+                        <img src="img/man.png" class="w-100" alt="man">
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                      <!-- t_text -->
+                      <div class="t_text">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                          majority have suffered alteration in some form, by injected humour, 
+                         or randomised words which don't look even slightly believable.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- item end -->
+                <!-- item strat  -->
+                <div class="carousel-item" data-bs-interval="10000">
+                <div class="t_item">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                      <!-- t_img -->
+                      <div class="t_img">
+                        <img src="img/man.png" class="w-100" alt="man">
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                      <!-- t_text -->
+                      <div class="t_text">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                          majority have suffered alteration in some form, by injected humour, 
+                         or randomised words which don't look even slightly believable.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- item end -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- testimony end -->
+
+     <!-- footer top strat -->
+     <section class="footer_top">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-5 col-sm-12">
+             <div class="f_deteals">
+              <p>Millions of people of all ages and from around
+                the world are improving their lives with us</p>
+              <p class="mb-0">Millions of people of all ages and from around
+                the world are improving their lives with us</p>
+             </div>
+           </div>
+           <div class="col-lg col-sm-4">
+             <div class="f_link">
+              <h2>Course</h2>
+              <ul class="list-unstyled mb-0">
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Engineering</a></li>
+              </ul>
+             </div>
+           </div>
+           <div class="col-lg col-sm-4">
+             <div class="f_link">
+              <h2>Course</h2>
+              <ul class="list-unstyled mb-0">
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Engineering</a></li>
+              </ul>
+             </div>
+           </div>
+           <div class="col-lg col-sm-4">
+             <div class="f_link">
+              <h2>Course</h2>
+              <ul class="list-unstyled mb-0">
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Engineering</a></li>
+              </ul>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+     <!-- footer top end -->
+
+      <!-- footer strat -->
+       <footer>
+        <p class="text-center mb-0">Copyright © 2020 <a href="https://sajidhaider.xyz/" target="_blank">sajidhaider</a></p>
+       </footer>
+      <!-- footer end -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

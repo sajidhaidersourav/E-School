@@ -1,0 +1,235 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+/* common */
+:root{
+    --black: #000000;
+    --green: #21B573;
+    --banner: #F0FFF0;
+    --whit: #ffffff;
+    --red: #FD511A;
+    --foot: #282531;
+
+    --pop:"Poppins", sans-serif;
+    --rob:"Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+/* header strat */
+header{
+    padding: 20px 0px;
+    background-color: var(--banner);
+}
+.menu ul li{
+    padding:0px 25px;
+}
+.menu ul li a{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    transition: 0.3s;
+}
+.menu ul li a:hover{
+  color: var(--red);
+}
+.c_btn{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--whit);
+    line-height: 28px;
+   background-color: var(--green);
+   border-radius: 33px;
+   transition: 0.3s;
+}
+.c_btn:hover{
+    color: var(--whit);
+    background-color: var(--red);
+}
+.cs_btn{
+   width: 104px;
+   height: 48px;
+   line-height: 30px;
+}
+/* modal strat */
+.c_modal{
+    margin-top: 230px;
+}
+.m_btn{
+    margin-right: 317px;
+    background-color: var(--green);
+    border: none;
+    transition: 0.3s;
+}
+.m_btn:hover{
+    color: var(--whit);
+    background-color: var(--red);
+}
+
+/* modal end */
+/* header end */
+/* banner strat */
+.banner{
+    padding: 20px 0px 63px;
+    background-color: var(--banner);
+}
+.b_text{
+    margin-top: 40px;
+}
+.b_p{
+  color: var(--red);
+}
+.b_text h2{
+    margin: 10px 110px 20px 0px;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--black);
+}
+.b_text span{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--green);
+}
+.b_p2{
+    color: var(--black);
+    line-height: 36px;
+}
+.cs2_btn{
+    margin-top: 20px;
+    width: 153px;
+    height: 50px;
+    line-height: 35px;
+}
+
+/* banner end */
+/* feature strat */
+.cm_padding{
+    padding: 0px 0px 100px;
+}
+.f_item{
+    margin: 30px 0px 0px;
+    padding: 54px 0px 49px;
+  background-color: var(--banner);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.f_item:hover{
+    background-color: var(--whit);
+    box-shadow: 0px 20px 40px 0px #0000001A;
+}
+.f_img{
+   width: 65px;
+   height: 85px;
+}
+.f_item h2{
+    margin-top: 15px !important;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black);
+    line-height: 36px;
+
+}
+/* feature end */
+/* cours strat */
+.c_hp{
+    padding: 0px 0px 70px;
+}
+.c_item{
+    padding: 25px 20px 30px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.c_h2{
+    padding: 20px 0px 0px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    
+}
+.c_link{
+    margin: 20px 0px 34px;
+    Width:137px;
+    Height:45px;
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--whit);
+    display: block;
+    line-height: 30px;
+}
+.c_left ul li span, .c_right ul li span{
+    font-size: 14px;
+}
+.c_li:not(:last-child) {
+    margin-right: 0px;
+}
+
+/* cours end */
+/* testimony strat */
+.h2{
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--black);
+    text-align: center;
+}
+.t_item{
+    margin-top: 60px;
+}
+.t_text p{
+    margin: 0%;
+    padding: 45px 0px 0px 52px;
+   line-height: 30px;
+}
+/* testimony end */
+/* footer top strat */
+.footer_top{
+    padding: 75px 0px 30px;
+        background-color: var(--foot);
+}
+.f_deteals{
+   padding-right: 120px;
+}
+
+.f_deteals p{
+   color: var(--whit);
+}
+.f_link h2{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--whit);
+    line-height: 30px;
+    
+}
+.f_link ul li a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--whit);
+    
+}
+/* footer top end */
+/* footer strat */
+footer{
+    padding: 20px 0px 30px;
+    background-color: var(--foot);
+}
+footer p{
+   color: var(--whit);
+}
+footer a{
+   color: var(--whit);
+}
+/* footer end */

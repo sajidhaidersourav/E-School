@@ -1,0 +1,290 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header */
+  header {
+    padding: 5px 0px;
+}
+  .menu ul li{
+    padding:0px 0px 10px 10px;
+}
+
+/* banner */
+.banner {
+    padding: 20px 0px 50px;
+}
+.b_img{
+    padding: 0px 0px 0px 0px;
+}
+.b_text{
+    text-align: center;
+    margin-top: 50px;
+}
+.b_text h2 {
+    margin: 10px 0px 20px;
+    font-size: 32px;
+}
+.b_text span{
+    font-size: 32px;
+}
+.b_p2 {
+    margin: 0px 0px 0px 0px !important;
+    line-height: 28px;
+}
+/* cours */
+.c_item {
+    margin-bottom: 30px;
+    padding: 20px 15px 25px;
+}
+.c_hp{
+    padding: 0px 0px 35px;
+}
+.c_h2 {
+    padding: 10px 0px 0px;
+    font-size: 20px;
+}
+/* feature */
+.cm_padding {
+    padding: 0px 0px 50px;
+}
+.f_img {
+    width: 55px;
+}
+.f_item h2 {
+    margin-top: 0px !important;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* testimonial */
+.t_item {
+    margin-top: 50px;
+}
+.h2 {
+    font-size: 28px;
+}
+.t_img {
+    width: 200px;
+    margin: 0 auto;
+}
+.t_text p {
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+}
+/* footer top */
+.footer_top {
+    padding: 50px 0px 30px;
+}
+.f_deteals {
+    margin-bottom: 0px;
+    padding: 0px 20px;
+    text-align: center;
+}
+.f_link{
+    margin-top: 30px;
+   text-align: center;
+}
+/* footer */
+footer {
+    padding: 10px 0px 25px;
+}
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header */
+  header {
+    padding: 5px 0px;
+}
+  .menu ul li{
+    padding:0px 0px 10px 10px;
+}
+/* banner */
+.banner {
+    padding: 20px 0px 50px;
+}
+.b_img{
+    padding: 0px 0px 0px 0px;
+}
+.b_text{
+    text-align: center;
+    margin-top: 50px;
+}
+.b_text h2 {
+    margin: 10px 70px 20px;
+    font-size: 35px;
+    line-height: 45px;
+}
+.b_text span{
+    font-size: 30px;
+}
+.b_p2 {
+    margin: 0px 50px 0px 50px !important;
+}
+/* cours */
+.cours {
+    margin: 0px 50px;
+}
+.c_hp {
+    padding: 0px 0px 60px;
+}
+.c_item {
+    margin-bottom: 60px;
+}
+/* feature */
+.cm_padding {
+    padding: 0px 0px 60px;
+}
+.f_img {
+    width: 55px;
+    height: 85px;
+}
+.f_item h2 {
+    margin-top: 0px !important;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* testimonial */
+.t_item {
+    margin-top: 50px;
+}
+.h2 {
+    font-size: 28px;
+}
+.t_text p {
+    padding: 0px 0px 0px 60px;
+}
+.t_img {
+    width: 200px;
+    margin: 0 auto;
+}
+.t_text p {
+    text-align: center;
+    padding: 30px 20px 0px 20px;
+}
+/* footer top */
+.f_deteals {
+    margin-bottom: 40px;
+    padding: 0px 60px;
+    text-align: center;
+}
+.f_link{
+    text-align: center;
+}
+.footer_top {
+    padding: 60px 0px 30px;
+}
+/* footer */
+footer {
+    padding: 10px 0px 30px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header */
+  header {
+    padding: 15px 0px;
+}
+  .menu ul li{
+    padding:0px 0px 10px 10px;
+}
+/* banner */
+.banner {
+    padding: 20px 0px 50px;
+}
+.b_img{
+    padding: 0px 40px 0px 40px;
+}
+.b_text{
+    text-align: center;
+    margin-top: 50px;
+}
+.b_text h2 {
+    margin: 10px 90px 20px 90px;
+}
+.b_p2 {
+    margin: 0px 70px 0px 70px !important;
+}
+/* cours */
+.cours {
+    margin: 0px 100px;
+}
+.c_item {
+    margin-bottom: 80px;
+}
+/* feature */
+.cm_padding {
+    padding: 0px 0px 80px;
+}
+/* testimonial */
+.t_item {
+    margin-top: 65px;
+}
+.t_img{
+    width: 150px;
+}
+.t_text p {
+    padding: 0px 0px 0px 35px;
+}
+/* footer top */
+.footer_top {
+    padding: 70px 0px 30px;
+}
+.f_deteals {
+    margin-bottom: 40px;
+    padding: 0px 60px;
+    text-align: center;
+}
+.f_link{
+    text-align: center;
+}
+/* footer */
+footer {
+    padding: 20px 0px 35px;
+}
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /* banner */
+  .b_text h2 {
+    margin: 10px 45px 20px 0px;
+}
+/* cours */
+.c_item {
+    padding: 20px 18px 25px;
+}
+.c_left ul li img, .c_right ul li img{
+    width: 20px;
+  }
+/* testimonial */
+.t_img{
+    width: 150px;
+}
+.t_text p {
+    padding: 10px 0px 0px 15px;
+}
+/* footer top */
+.f_deteals {
+    padding-right: 65px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* banner */
+  .b_text h2 {
+    margin: 10px 35px 20px 0px;
+}
+/* testimonial */
+.t_text p {
+    padding: 25px 0px 0px 52px;
+}
+ }
+ 
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  
+ }
+ 
+
